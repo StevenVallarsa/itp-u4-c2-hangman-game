@@ -12,7 +12,7 @@ def _get_random_word(list_of_words):
     if len(list_of_words) == 1:
         return list_of_words[0]
     else:
-        rnd = random.randint(0,len(list_of_words))
+        rnd = random.randint(0,len(list_of_words)-1)
         return list_of_words[rnd]
 
 
